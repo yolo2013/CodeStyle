@@ -4,7 +4,7 @@
 
 ## 总规范
 
-1. 忽略（Omit）协议：如 background: url(http://www.google.com/images/example); 应该写background: url(//www.google.com/images/example);以方便http与https协议切换，除非必须使用某个协议
+1. 忽略（Omit）协议：如 background: url(http://www.google.com/images/example); 应该写background: url(//www.google.com/images/example); 以方便http与https协议切换，除非必须使用某个协议
 2. 缩进使用两个空格
 3. 标签属性使用小写
 4. 文件命名使用分隔符`-`
