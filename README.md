@@ -12,9 +12,9 @@
 
 ## HTML与CSS
 
-1. ID命名以下划线分隔，如`gl_title_btn`
-2. Class命名以`-`分隔，如`global-header`
-3. 标签属性使用双引号
+1. ID和Class命名以`-`分隔，如`global-header`
+2. 标签属性使用双引号
+3. 无需添加浏览器厂商前缀，如'-ms-xxx'，发布时使用 **Autoprefixer** 自动生成
 
 ## JavaScript
 
