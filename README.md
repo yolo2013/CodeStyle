@@ -1,1 +1,21 @@
-# CodeStyle
+# 前端编码规范
+
+## 总规范
+
+1. 忽略（Omit）协议：如 background: url(http://www.google.com/images/example); 应该写background: url(//www.google.com/images/example);以方便http与https协议切换，除非必须使用某个协议
+2. 缩进使用两个空格
+3. 标签属性使用小写
+4. 文件命名使用分隔符`-`
+4. 代码提交前，统一在IDE中使用`Ctrl+Alt+L`进行代码格式化
+
+## HTML与CSS
+
+1. ID命名以下划线分隔，如`gl_title_btn`
+2. Class命名以`-`分隔，如`global-header`
+3. 标签属性使用双引号
+
+## JavaScript
+
+1. 非HTML模板中，使用单引号`'`
+2. 非必要情况下（一行开头是括号或者方括号的时候）不使用分号
+3. 命名：functionNamesLikeThis, variableNamesLikeThis, ClassNamesLikeThis, EnumNamesLikeThis, methodNamesLikeThis, SYMBOLIC_CONSTANTS_LIKE_THIS
