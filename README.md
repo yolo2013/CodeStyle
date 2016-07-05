@@ -1,5 +1,7 @@
 # 前端编码规范
 
+> 无论有多少人在维护，所有在代码仓库中的代码理应看起来像同一个人写的 !
+
 ## 总规范
 
 1. 忽略（Omit）协议：如 background: url(http://www.google.com/images/example); 应该写background: url(//www.google.com/images/example);以方便http与https协议切换，除非必须使用某个协议
