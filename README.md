@@ -20,4 +20,5 @@
 
 1. 非HTML模板中，使用单引号`'`
 2. 非必要情况下（一行开头是括号或者方括号的时候）不使用分号
-3. 命名：functionNamesLikeThis, variableNamesLikeThis, ClassNamesLikeThis, EnumNamesLikeThis, methodNamesLikeThis, SYMBOLIC_CONSTANTS_LIKE_THIS
+3. 命名：functionNamesLikeThis（函数）, variableNamesLikeThis（变量）, ClassNamesLikeThis（构造函数、类）, EnumNamesLikeThis（枚举）, methodNamesLikeThis（方法）, SYMBOLIC_CONSTANTS_LIKE_THIS（常量）
+4. 多次使用的jQuery元素、DOM元素等，要先缓存再使用
