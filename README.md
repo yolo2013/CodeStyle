@@ -13,6 +13,7 @@
 ## HTML与CSS
 
 1. ID和Class命名以小写驼峰，如**globalHeader**，并尽量不在尾部追加数字
+2. ID和Class写在标签属性的最前方；
 2. 标签属性使用双引号
 3. 无需添加浏览器厂商前缀，如**-ms-xxx**，发布时使用 **Autoprefixer** 自动生成
 
