@@ -7,7 +7,7 @@
 1. 忽略（Omit）协议：如 background: url(http://www.google.com/images/example); 应该写background: url(//www.google.com/images/example); 以方便http与https协议切换，除非必须使用某个协议
 2. 缩进使用两个空格，在IDE的**Settings-Editor-Code Style-Manage-Import**[这个文件](https://github.com/yolo2013/CodeStyle/blob/master/CodeStyle.xml)即可
 3. 标签属性使用小写
-4. 文件命名使用分隔符`-`，不使用大写字母
+4. 文件命名使用连字符`-`，不使用大写字母
 4. 代码提交前，统一在IDE中使用`Ctrl+Alt+L`进行代码格式化
 
 ## HTML与CSS
