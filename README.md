@@ -17,7 +17,7 @@
 2. Class和ID写在标签属性的最前方
 2. 标签属性使用双引号
 3. 无需添加浏览器厂商前缀，如**-ms-xxx**，发布时使用 **Autoprefixer** 自动生成
-4. 在head中引入Css body底部引入JavaScript
+4. 在head中引入Css，body底部引入JavaScript
 
 ## JavaScript
 
