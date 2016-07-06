@@ -8,14 +8,16 @@
 2. 缩进使用两个空格，在IDE的**Settings-Editor-Code Style-Manage-Import**[这个文件](https://github.com/yolo2013/CodeStyle/blob/master/CodeStyle.xml)即可
 3. 标签属性使用小写
 4. 文件命名使用连字符`-`，不使用大写字母
-4. 代码提交前，统一在IDE中使用`Ctrl+Alt+L`进行代码格式化
+5. 代码提交前，统一在IDE中使用`Ctrl+Alt+L`进行代码格式化
+6. 在 HTML中指定编码 <meta charset="utf-8"> 
 
 ## HTML与CSS
 
-1. ID和Class命名以小写驼峰，如**globalHeader**，并尽量不在尾部追加数字
+1. ID和Class命名以连字符`-`分隔，如**global-header**，不使用大写字母，并尽量不在尾部追加数字
 2. Class和ID写在标签属性的最前方
 2. 标签属性使用双引号
 3. 无需添加浏览器厂商前缀，如**-ms-xxx**，发布时使用 **Autoprefixer** 自动生成
+4. 在head中引入Css body底部引入JavaScript
 
 ## JavaScript
 
